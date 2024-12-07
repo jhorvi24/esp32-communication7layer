@@ -16,6 +16,6 @@
 
     mosquitto_pub -h ip-address -p 1883 -t "test/topic" -m "Hello from MQTT client"
 
-#Test using a client subscriber
+## Test using a client subscriber
 
     mosquitto_sub -h your_server_ip -t test/topic
